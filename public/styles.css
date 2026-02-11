@@ -1,0 +1,22 @@
+body{
+    font-family: verdana;
+}
+
+button{
+    border: 1px solid silver;
+    background: white;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 2s ease-out, opacity 2s ease-out;
+}
+
+button.done{
+    background-color: blueviolet;
+    color: white;
+}
+
+button.hide{
+    opacity: 0;
+}
